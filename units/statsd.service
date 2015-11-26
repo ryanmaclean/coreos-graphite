@@ -4,8 +4,8 @@ After=carbon.service
 Requires=carbon.service
 
 [Service]
-ExecStartPre=/usr/bin/docker pull ejholmes/statsd
-ExecStart=/usr/bin/docker run --rm --name statsd --env ETCD=http://%H:4001 -p 8126:8126 -p 8125:8125/udp ejholmes/statsd
+ExecStartPre=/usr/bin/docker pull ryanmaclean/statsd
+ExecStart=/usr/bin/docker run --rm --name statsd --env ETCD=http://%H:4001 -p 8126:8126 -p 8125:8125/udp ryanmaclean/statsd
 ExecStop=/usr/bin/docker kill statsd
 
 [Install]
