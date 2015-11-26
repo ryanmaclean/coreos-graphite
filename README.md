@@ -1,6 +1,6 @@
 # CoreOS Graphite
 
-Set of unit files for running [docker-graphite](https://github.com/ejholmes/docker-graphite), [docker-carbon](https://github.com/ejholmes/docker-carbon), and [docker-statsd](https://github.com/ejholmes/docker-statsd).
+Set of unit files for running [docker-graphite](https://github.com/ryanmaclean/docker-graphite), [docker-carbon](https://github.com/ryanmaclean/docker-carbon), and [docker-statsd](https://github.com/ryanmaclean/docker-statsd).
 
 ## Usage
 
